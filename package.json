@@ -12,6 +12,7 @@
     "@angular/platform-browser-dynamic": "~2.3.0",
     "@angular/router": "~3.3.0",
     "@types/core-js": "0.9.35",
+    "bower": "^1.8.0",
     "core-js": "^2.4.1",
     "express": "^4.15.2",
     "reflect-metadata": "^0.1.8",
@@ -50,7 +51,8 @@
     "test": "tsc && concurrently \"tsc -w\" \"karma start karma.conf.js\"",
     "test-once": "tsc && karma start karma.conf.js --single-run",
     "tsc": "tsc",
-    "tsc:w": "tsc -w"
+    "tsc:w": "tsc -w",
+    "postinstall":"./node_modules/bower/bin/bower install"
   },
   "author": "",
   "license": "ISC"

@@ -1,7 +1,7 @@
 
 var supertest = require("supertest");
 var should = require("should");
-var app = require('../server.js');
+var app = require('../app.js');
 // var expect = require('expect');
 
 var server = supertest.agent("http://localhost:8080");
