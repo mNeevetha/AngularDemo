@@ -1,2 +1,1 @@
-web:nodemon
-
+web:npm install
