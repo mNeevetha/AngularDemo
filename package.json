@@ -2,7 +2,7 @@
   "name": "mytasklist",
   "version": "1.0.0",
   "description": "Simple",
-  "main": "server.js",
+ 
   "scripts": {
      "test": "mocha"
   },
