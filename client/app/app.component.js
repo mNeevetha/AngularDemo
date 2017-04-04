@@ -9,7 +9,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var AppComponent = (function () {
     function AppComponent() {
-        this.title = 'Hello Angular!!!';
+        this.title = 'Hello !!!';
     }
     return AppComponent;
 }());

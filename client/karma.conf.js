@@ -59,7 +59,7 @@ module.exports = function(config) {
       { pattern: 'node_modules/@angular/**/*.js.map', included: false, watched: false },
 
       { pattern: 'systemjs.config.js', included: false, watched: false },
-      { pattern: 'systemjs.config.extras.js', included: false, watched: false },
+     // { pattern: 'systemjs.config.extras.js', included: false, watched: false },
       'karma-test-shim.js', // optionally extend SystemJS mapping e.g., with barrels
 
       // transpiled application & spec code paths loaded via module imports
