@@ -4,5 +4,5 @@ test:
   
   override:
    
-    - karma start ./client/karma.conf.js --single-run
+    - karma start ./client/karma.conf.js
 
