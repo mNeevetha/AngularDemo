@@ -35,11 +35,10 @@ module.exports = function(config) {
 
     files: [
       // System.js for module loading
-<<<<<<< HEAD
+
       'node_modules/systemjs/dist/system.src.js',
-=======
-      'node_modules/systemjs/dist/system.src.js,
->>>>>>> 0820d18f6bc426acb166a7a6f86d42b79d0ef810
+
+
       'node_modules/systemjs/dist/system-polyfills.js',
 
       // Polyfills
