@@ -4,5 +4,5 @@ import { Component } from '@angular/core';
   template: '<h1>{{title}}</h1>'
 })
 export class AppComponent {
-  title = 'Hello Angular!!!'
+  title = 'Hello !!!'
  }
