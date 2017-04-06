@@ -1,6 +1,6 @@
 test:
   pre:
-    - npm --prefix ./client install 
+    - npm install -g karma 
   
   override:
    
